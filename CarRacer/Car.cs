@@ -18,11 +18,11 @@ namespace CarRacer
 
         public float Direction { get; set; }
         public float Speed { get; set; }
-        public Vector2 Position { get { return _position; } set { _position = value; } }
+     
 
         public void Update()
         {
-            //_position.X++;
+           
             _keyboard = Keyboard.GetState();
 
             if (_keyboard.IsKeyDown(Keys.Up))
@@ -33,11 +33,11 @@ namespace CarRacer
 
                 if (_keyboard.IsKeyDown(Keys.Left))
                 {
-                    Direction -= 0.03f;
+                    Direction -= 0.02f;
                 }
                 if (_keyboard.IsKeyDown(Keys.Right))
                 {
-                    Direction += 0.03f;
+                    Direction += 0.02f;
                 }
             }
            

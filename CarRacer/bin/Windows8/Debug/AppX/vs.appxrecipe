@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\bin\Windows8\Debug\CarRacer.exe">
       <PackagePath>CarRacer.exe</PackagePath>
-      <Modified>2014-01-28T10:29:15.638</Modified>
+      <Modified>2014-01-28T12:41:13.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\bin\Windows8\Debug\CarRacer.pdb">
       <PackagePath>CarRacer.pdb</PackagePath>
-      <Modified>2014-01-28T10:29:15.587</Modified>
+      <Modified>2014-01-28T12:41:13.001</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
