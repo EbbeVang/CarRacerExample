@@ -21,13 +21,13 @@ namespace CarRacer
      
 
         public void Update()
-        {
-           
+        {  
             _keyboard = Keyboard.GetState();
 
             if (_keyboard.IsKeyDown(Keys.Up))
             {
-              //  _position.X++;
+                Speed += 0.15f;
+              
                 _position.X += Speed * (float) Math.Cos(Direction);
                 _position.Y += Speed * (float) Math.Sin(Direction);
 
@@ -41,18 +41,22 @@ namespace CarRacer
                 }
             }
            
-            if (_keyboard.IsKeyDown(Keys.Down))
+            else if (_keyboard.IsKeyDown(Keys.Down))
             {
-                _position.X -= Speed * (float)Math.Cos(Direction);
-                _position.Y -= Speed * (float)Math.Sin(Direction);
+                _position.X -= Speed*(float) Math.Cos(Direction);
+                _position.Y -= Speed*(float) Math.Sin(Direction);
                 if (_keyboard.IsKeyDown(Keys.Left))
                 {
-                    Direction += 0.03f;
+                    Direction += 0.02f;
                 }
                 if (_keyboard.IsKeyDown(Keys.Right))
                 {
-                    Direction -= 0.03f;
+                    Direction -= 0.02f;
                 }
+            }
+            else
+            {
+                Speed = 3;
             }
         }
 

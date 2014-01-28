@@ -29,7 +29,7 @@ namespace CarRacer
         {
             // TODO: Add your initialization logic here
             _car = new Car();
-            _car.Speed = 5;
+            _car.Speed = 3;
             //_car.
             base.Initialize();
         }
