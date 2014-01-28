@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>VISION</Machine>
-    <WindowsUser>Ebbe Vang</WindowsUser>
+    <Machine>EASJ04</Machine>
+    <WindowsUser>ebva</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>4F5404B3A555CDDC0C0FC9F8FC488E0DEE9A566052568DB0B01903503788520A</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>724312C3CC397153A386B88F3E8D7AC6A971EED60A928FF860142EF76580EEDB</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>64573de7-63fe-47d3-a841-e21026f88e97_1.0.0.0_neutral__nhg817qpxnvj8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>64573de7-63fe-47d3-a841-e21026f88e97_nhg817qpxnvj8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>64573de7-63fe-47d3-a841-e21026f88e97</RegisteredPackageID>
@@ -13,20 +13,20 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\bin\Windows8\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\bin\Windows8\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-01-26T13:57:05.143</Modified>
+      <Modified>2014-01-28T10:06:22.028</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\bin\Windows8\Debug\CarRacer.exe">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\bin\Windows8\Debug\CarRacer.exe">
       <PackagePath>CarRacer.exe</PackagePath>
-      <Modified>2014-01-26T14:01:09.131</Modified>
+      <Modified>2014-01-28T10:29:15.638</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\bin\Windows8\Debug\CarRacer.pdb">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\bin\Windows8\Debug\CarRacer.pdb">
       <PackagePath>CarRacer.pdb</PackagePath>
-      <Modified>2014-01-26T14:01:09.119</Modified>
+      <Modified>2014-01-28T10:29:15.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\MSBuild\..\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll">
       <PackagePath>MonoGame.Framework.dll</PackagePath>
@@ -60,45 +60,45 @@
       <PackagePath>SharpDX.XInput.dll</PackagePath>
       <Modified>2012-12-28T16:17:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\Content\car.xnb">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\Content\car.xnb">
       <PackagePath>Content\car.xnb</PackagePath>
-      <Modified>2014-01-26T13:40:17.659</Modified>
+      <Modified>2014-01-28T07:58:10.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-01-06T13:37:42.000</Modified>
+      <Modified>2014-01-28T07:58:10.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-01-06T13:37:42.000</Modified>
+      <Modified>2014-01-28T07:58:10.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-01-06T13:37:42.000</Modified>
+      <Modified>2014-01-28T07:58:10.336</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-01-06T13:37:42.000</Modified>
+      <Modified>2014-01-28T07:58:10.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\bin\Windows8\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\bin\Windows8\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2014-01-26T13:41:06.292</Modified>
+      <Modified>2014-01-28T07:58:10.332</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\bin\Windows8\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\bin\Windows8\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2013-01-06T13:37:42.000</Modified>
+      <Modified>2014-01-28T07:58:10.344</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\bin\Windows8\Debug\GamePage.xaml">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\bin\Windows8\Debug\GamePage.xaml">
       <PackagePath>GamePage.xaml</PackagePath>
-      <Modified>2014-01-26T13:41:06.312</Modified>
+      <Modified>2014-01-28T07:58:10.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\bin\Windows8\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\bin\Windows8\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-01-26T13:57:05.072</Modified>
+      <Modified>2014-01-28T08:59:14.275</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

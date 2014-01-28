@@ -10,7 +10,8 @@ namespace CarRacer
     {
         GraphicsDeviceManager _graphics;
         SpriteBatch _spriteBatch;
-        private Texture2D _car;
+        private Car _car;
+        private Texture2D _carTexture;
 
         public Game1()
         {
@@ -27,7 +28,9 @@ namespace CarRacer
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-
+            _car = new Car();
+            _car.Speed = 5;
+            //_car.
             base.Initialize();
         }
 
@@ -39,7 +42,8 @@ namespace CarRacer
         {
             // Create a new SpriteBatch, which can be used to draw textures.
            _spriteBatch = new SpriteBatch(GraphicsDevice);
-            _car = Content.Load<Texture2D>("car");
+            _carTexture = Content.Load<Texture2D>("car");
+            _car.image = _carTexture;
             // TODO: use this.Content to load your game content here
         }
 
@@ -60,7 +64,7 @@ namespace CarRacer
         protected override void Update(GameTime gameTime)
         {
             // TODO: Add your update logic here
-
+            _car.Update();
             base.Update(gameTime);
         }
 
@@ -73,7 +77,8 @@ namespace CarRacer
             GraphicsDevice.Clear(Color.CornflowerBlue);
             // TODO: Add your drawing code here
             _spriteBatch.Begin(); // start drawing sprites
-            _spriteBatch.Draw(_car, new Vector2(100,100), Color.White); // Draw our image
+            //_spriteBatch.Draw(_car, new Vector2(100,100), Color.White); // Draw our image
+            _car.Draw(_spriteBatch);
             _spriteBatch.End(); // end drawing 
 
             base.Draw(gameTime);

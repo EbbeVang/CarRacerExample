@@ -1,1 +1,1 @@
-c:\users\ebbe vang\documents\visual studio 2012\Projects\CarRacer\CarRacer\CarRacer.csproj;neutral
+C:\Users\ebva.RHS\Documents\Visual Studio 2012\Projects\MonoGameCarRacer\CarRacer\CarRacer.csproj;neutral
